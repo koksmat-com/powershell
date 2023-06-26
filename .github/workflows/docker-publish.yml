@@ -69,7 +69,7 @@ jobs:
         run: docker build -t koksmat-com/powershell:latest .
       
       - name: Tag Docker image
-        run: docker tag ghcr.io/koksmat-com/powershell:latest
+        run: docker tag koksmat-com/powershell:latest ghcr.io/koksmat-com/powershell:latest
       
       - name: Push Docker image
         run: |
